@@ -1,8 +1,8 @@
 /* Main.scss */
 /* Globals.scss */
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:700,400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Open+Sans+Condensed:700);
 @mixn body-font-italic {
-  font-family: 'Ubuntu';
+  font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400; }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -16,7 +16,7 @@ html {
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
   /* 2 */ }
 
 /**
@@ -58,7 +58,7 @@ progress,
 video {
   display: inline-block;
   /* 1 */
-  vertical-align: baseline;
+  vertical-align: baseline
   /* 2 */ }
 
 /**
@@ -176,7 +176,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -217,7 +216,7 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */
-  margin: 0;
+  margin: 0
   /* 3 */ }
 
 /**
@@ -249,7 +248,7 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-  cursor: pointer;
+  cursor: pointer
   /* 3 */ }
 
 /**
@@ -285,7 +284,7 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */ }
 
 /**
@@ -305,8 +304,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -334,7 +331,7 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */ }
 
 /**
@@ -365,7 +362,7 @@ th {
 
 /* Base.scss */
 body {
-  font-family: 'Ubuntu';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   margin: 0 auto;
@@ -376,8 +373,11 @@ img {
   height: auto;
   max-width: 100%; }
 
+h1, h2, h3, h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400; }
+
 /* Layout.scss */
 /* Module.scss */
 /* State.scss */
-
-/*# sourceMappingURL=main.css.map */
