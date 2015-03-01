@@ -1,0 +1,27 @@
+/* Globals.scss */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:700,400,400italic);
+
+@mixin body-font{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;  
+}
+
+@mixn body-font-italic{
+    font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;  
+}
+
+@mixin body-font-bold{
+    font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 600;  
+}
+
+@mixin body-font-headline{
+     font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 800;
+    
+}
